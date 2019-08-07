@@ -1,0 +1,33 @@
+body{
+    background:orange;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.loop-wrapper{
+    margin: 0 auto;
+    position: relative;
+    display:block;
+    width:600px;
+    height: 250px;
+    overflow: hidden;
+    border-bottom: 3px solid #fff;
+    color:#fff;
+
+}
+
+.mountain {
+    position: absolute;
+    right: -900px;
+    bottom: -20px;
+    width:2px;
+    height: 2px;
+    box-shadow:
+    0 0 0 50px #4db6ac,
+    90px 90px 0 50px #4DB6AC,
+    250px 250px 0 50px #4DB6AC,
+    290px 320px 0 50px #4DB6AC,
+    320px 400px 0 50px #4DB6AC
+    ;
+    transform: rotate(130deg);
+  animation: mtn 20s linear infinite;
+}
